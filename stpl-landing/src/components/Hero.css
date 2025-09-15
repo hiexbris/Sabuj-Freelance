@@ -1,7 +1,10 @@
 .hero {
   position: relative;
   min-height: 100vh;
-  background: linear-gradient(135deg, var(--light-gray), var(--white));
+  /* Use provided hero.jpg as background */
+  background: 
+    linear-gradient(rgba(2,6,23,0.45), rgba(2,6,23,0.25)),
+    url('/images/hero.jpg') center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -33,7 +36,7 @@
 .hero-title {
   font-size: 2.5rem;
   font-weight: 700;
-  color: var(--dark-gray);
+  color: var(--white);
   margin-bottom: 1.5rem;
   line-height: 1.2;
 }
@@ -51,12 +54,14 @@
 }
 
 .hero-highlight {
-  color: var(--primary);
+  /* Brighter green for emphasis and visibility over the image */
+  color: #24ce62; /* green-400 */
+  text-shadow: 0 1px 10px rgba(0, 0, 0, 0.35);
 }
 
 .hero-subtitle {
   font-size: 1.125rem;
-  color: var(--gray-600);
+  color: #eaf7ef;
   margin-bottom: 2rem;
   max-width: 48rem;
   margin-left: auto;

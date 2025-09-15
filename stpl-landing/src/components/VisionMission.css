@@ -1,0 +1,90 @@
+.vision-mission {
+  padding: 4rem 0;
+  background-color: var(--white);
+}
+
+.vision-mission-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+@media (min-width: 640px) {
+  .vision-mission-container {
+    padding: 0 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .vision-mission-container {
+    padding: 0 2rem;
+  }
+}
+
+.vision-mission-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 3rem;
+  align-items: start;
+}
+
+@media (min-width: 768px) {
+  .vision-mission-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.vision-content,
+.mission-content {
+  animation: fadeInUp 0.6s ease-in-out;
+}
+
+.section-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.section-icon {
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1rem;
+}
+
+.vision-icon {
+  background-color: var(--primary);
+}
+
+.mission-icon {
+  background-color: var(--accent);
+}
+
+.icon {
+  height: 1.5rem;
+  width: 1.5rem;
+  color: var(--white);
+}
+
+.section-title {
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: var(--dark-gray);
+  margin: 0;
+}
+
+@media (min-width: 768px) {
+  .section-title {
+    font-size: 2.25rem;
+  }
+}
+
+.section-text {
+  font-size: 1.125rem;
+  color: var(--gray-600);
+  line-height: 1.75;
+  margin: 0;
+}

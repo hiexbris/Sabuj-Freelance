@@ -1,0 +1,137 @@
+.technology {
+  padding: 4rem 0;
+  background-color: var(--white);
+}
+
+.technology-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+@media (min-width: 640px) {
+  .technology-container {
+    padding: 0 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .technology-container {
+    padding: 0 2rem;
+  }
+}
+
+.technology-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.technology-title {
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: var(--dark-gray);
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+  .technology-title {
+    font-size: 2.25rem;
+  }
+}
+
+.technology-description {
+  font-size: 1.125rem;
+  color: var(--gray-600);
+  max-width: 48rem;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.technology-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+@media (min-width: 768px) {
+  .technology-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.tech-item {
+  text-align: center;
+}
+
+.tech-icon {
+  border-radius: 50%;
+  width: 5rem;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1rem;
+}
+
+.primary-bg {
+  background-color: var(--primary);
+}
+
+.accent-bg {
+  background-color: var(--accent);
+}
+
+.icon {
+  height: 2.5rem;
+  width: 2.5rem;
+  color: var(--white);
+}
+
+.tech-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--dark-gray);
+  margin-bottom: 0.5rem;
+}
+
+.tech-description {
+  color: var(--gray-600);
+  margin: 0;
+  line-height: 1.6;
+}
+
+.technology-portfolio {
+  background: linear-gradient(to right, var(--primary), var(--accent));
+  border-radius: 0.5rem;
+  padding: 2rem;
+  color: var(--white);
+  text-align: center;
+}
+
+.portfolio-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.portfolio-description {
+  font-size: 1.125rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.portfolio-tags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.portfolio-tag {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
